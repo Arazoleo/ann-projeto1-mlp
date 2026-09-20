@@ -2,7 +2,7 @@
 
 Projeto 1 da disciplina de Redes Neurais. Constrói um modelo MLP de referência
 (*baseline*) para dois problemas de naturezas distintas,  **regressão** sobre uma função
-sintética e **classificação** no Fashion-MNIST — e mede o efeito de quatro componentes
+sintética e **classificação** no Fashion-MNIST e mede o efeito de quatro componentes
 adicionados isoladamente: **L1**, **L2**, **dropout** e **momentum**.
 
 **[Relatório completo em PDF](relatorio.pdf)**
@@ -29,7 +29,7 @@ fixo (sem *early stopping*, que é regularização e contaminaria o baseline).
 
 ---
 
-## Problema 1 — Regressão
+## Problema 1: Regressão
 
 `f(x) = sin(3x) + 0.3x + 1.5·1[x>2] + ε`, com `ε ~ N(0, 0.2²)`, `x ~ U(-5,5)`, n = 300.
 
@@ -42,12 +42,12 @@ fixo (sem *early stopping*, que é regularização e contaminaria o baseline).
 
 À direita, o limite representacional: onde `f(x)` tem um **salto vertical** em x=2, a rede
 produz uma rampa de largura ~0,17. Uma MLP é composição de funções contínuas e não *pode*
-representar uma descontinuidade — só aproximá-la. Mais capacidade estreita a rampa, nunca
+representar uma descontinuidade, só aproximá-la. Mais capacidade estreita a rampa, nunca
 a elimina.
 
 ---
 
-## Problema 2 — Classificação (Fashion-MNIST)
+## Problema 2: Classificação (Fashion-MNIST)
 
 50.000 treino / 10.000 validação / 10.000 teste (oficial), imagens 28×28 → 784 entradas.
 
