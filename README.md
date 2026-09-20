@@ -84,7 +84,6 @@ python3 final.py            # teste + gráficos da regressão       (~10 min)
 python3 baseline_mnist.py   # busca do baseline do Fashion-MNIST  (~7 min)
 python3 ablacoes_mnist.py   # 4 ablações da classificação         (~20 min)
 python3 final_mnist.py      # teste + matriz de confusão          (~10 min)
-tectonic relatorio.tex      # compila o PDF
 ```
 
 O dataset do Fashion-MNIST é baixado automaticamente na primeira execução (não versionado).
