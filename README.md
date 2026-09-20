@@ -1,11 +1,11 @@
-# Redes Neurais MLP — baseline e estudo de ablação
+# Redes Neurais MLP
 
 Projeto 1 da disciplina de Redes Neurais. Constrói um modelo MLP de referência
-(*baseline*) para dois problemas de naturezas distintas — **regressão** sobre uma função
+(*baseline*) para dois problemas de naturezas distintas,  **regressão** sobre uma função
 sintética e **classificação** no Fashion-MNIST — e mede o efeito de quatro componentes
 adicionados isoladamente: **L1**, **L2**, **dropout** e **momentum**.
 
-📄 **[Relatório completo em PDF](relatorio.pdf)**
+**[Relatório completo em PDF](relatorio.pdf)**
 
 ---
 
