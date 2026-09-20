@@ -1,0 +1,20 @@
+Eixo 1: largura (uma camada oculta)
+  larguras=[16]       R2=0.8633 ± 0.0291  RMSE=0.6290  MAE=0.4563
+  larguras=[32]       R2=0.8770 ± 0.0551  RMSE=0.5824  MAE=0.4621
+  larguras=[64]       R2=0.8822 ± 0.0730  RMSE=0.5610  MAE=0.4462
+  larguras=[128]      R2=0.9516 ± 0.0051  RMSE=0.3761  MAE=0.2934
+  -> melhor: larguras=[128]
+
+Eixo 2: profundidade
+  larguras=[128]      R2=0.9516 ± 0.0051  RMSE=0.3761  MAE=0.2934
+  larguras=[128, 128] R2=0.9756 ± 0.0022  RMSE=0.2671  MAE=0.2016
+  larguras=[128, 128, 128] R2=0.9780 ± 0.0012  RMSE=0.2539  MAE=0.1874
+  -> melhor: larguras=[128, 128, 128]
+
+Eixo 3: taxa de aprendizado
+  lr=0.01       R2=0.9742 ± 0.0031  RMSE=0.2745  MAE=0.2049
+  lr=0.05       R2=0.9780 ± 0.0012  RMSE=0.2539  MAE=0.1874
+  lr=0.1        R2=0.9763 ± 0.0007  RMSE=0.2634  MAE=0.1950
+  -> melhor: lr=0.05
+
+Baseline escolhido: {'larguras': [128, 128, 128], 'lr': 0.05}

@@ -1,0 +1,6 @@
+  recall por classe (3 piores): Shirt=0.698, Pullover=0.815, T-shirt/top=0.839
+baseline       val acc=0.8894±0.0028 | TESTE acc=0.8895±0.0044 F1=0.8896 prec=0.8903 rec=0.8895
+L1 1e-6        val acc=0.8915±0.0019 | TESTE acc=0.8899±0.0037 F1=0.8902 prec=0.8910 rec=0.8899
+L2 1e-4        val acc=0.8908±0.0030 | TESTE acc=0.8894±0.0031 F1=0.8897 prec=0.8907 rec=0.8894
+dropout 0.2    val acc=0.8920±0.0022 | TESTE acc=0.8948±0.0022 F1=0.8942 prec=0.8948 rec=0.8948
+momentum 0.5   val acc=0.8889±0.0022 | TESTE acc=0.8914±0.0040 F1=0.8915 prec=0.8929 rec=0.8914

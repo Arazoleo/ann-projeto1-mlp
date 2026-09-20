@@ -1,0 +1,9 @@
+[128]               101770 parametros
+[256]               203530 parametros
+[128, 128]          118282 parametros
+[256, 256]          269322 parametros
+[256, 256, 256]     335114 parametros
+
+[128]          lr=0.1  acc=0.8844 +- 0.0021  | pico val ep 15 | treino_fim=0.0679 val_fim=0.4664 gap=6.9x | degrad=1.156
+[128, 128]     lr=0.1  acc=0.8794 +- 0.0045  | pico val ep 12 | treino_fim=0.0464 val_fim=0.6184 gap=13.3x | degrad=1.295
+[256, 256]     lr=0.1  acc=0.8894 +- 0.0028  | pico val ep  7 | treino_fim=0.0313 val_fim=0.5707 gap=18.2x | degrad=1.289

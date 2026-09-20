@@ -1,0 +1,19 @@
+Eixo 1: largura (uma camada oculta)
+  larguras=[64]             acc=0.8672 ± 0.0081  F1=0.8640  recall=0.8689
+  larguras=[128]            acc=0.8859 ± 0.0037  F1=0.8859  recall=0.8864
+  larguras=[256]            acc=0.8882 ± 0.0028  F1=0.8874  recall=0.8890
+  -> melhor: larguras=[256]
+
+Eixo 2: profundidade
+  larguras=[256]            acc=0.8882 ± 0.0028  F1=0.8874  recall=0.8890
+  larguras=[256, 256]       acc=0.8886 ± 0.0028  F1=0.8886  recall=0.8889
+  larguras=[256, 256, 256]  acc=0.8874 ± 0.0042  F1=0.8870  recall=0.8879
+  -> melhor: larguras=[256, 256]
+
+Eixo 3: taxa de aprendizado
+  lr=0.01             acc=0.8836 ± 0.0029  F1=0.8836  recall=0.8839
+  lr=0.05             acc=0.8886 ± 0.0028  F1=0.8886  recall=0.8889
+  lr=0.1              acc=0.8894 ± 0.0028  F1=0.8895  recall=0.8897
+  -> melhor: lr=0.1
+
+Baseline MNIST escolhido: {'larguras': [256, 256], 'lr': 0.1}

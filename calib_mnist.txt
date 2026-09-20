@@ -1,0 +1,5 @@
+treino 50000 | val 10000 | teste 10000 | mu=0.2858 sd=0.3528
+acuracia val = 0.8853 +- 0.0013 | f1 macro = 0.8853
+perda val: melhor epoca 19 de 60 (=0.3261) | final 0.4300 | treino final 0.0768
+degradacao (media ult.10 / media meio10) = 1.181
+47s

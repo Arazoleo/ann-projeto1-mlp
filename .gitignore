@@ -1,0 +1,16 @@
+# dataset baixado pelo torchvision (84 MB) - regenerado automaticamente
+data/
+
+# artefatos de compilacao LaTeX
+*.aux
+*.log
+*.out
+*.xdv
+*.toc
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+DECISOES.md
