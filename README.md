@@ -69,7 +69,7 @@ Os erros formam um **bloco semântico**: *Shirt* (recall 0,698), *Pullover*, *T-
 *Coat* confundem-se entre si, enquanto calçados e bolsa passam de 95%. Todas as classes
 problemáticas são peças de tronco superior, que se distinguem por detalhes **locais**
 (gola, botões, punho). Como `.view(-1, 784)` destrói a noção de vizinhança entre pixels, a
-MLP não tem como representá-los: **o limite aqui não é de sobreajuste, é de representação** —
+MLP não tem como representá-los: **o limite aqui não é de sobreajuste, é de representação**,
 e é exatamente o que uma CNN atacaria.
 
 ---
